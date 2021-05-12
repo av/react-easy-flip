@@ -33,7 +33,7 @@ export const getComputedBgColor = (element: Element) =>
   getComputedStyle(element).getPropertyValue('background-color')
 
 export const getElementByFlipId = (flipId: FlipID) =>
-  document.querySelector(`[data-flip-id=${flipId}]`) as FlipHtmlElement
+  document.querySelector(`[data-flip-id="${flipId}"]`) as FlipHtmlElement
 
 export const getElementsByRootId = (rootId: string) =>
   document.querySelectorAll(`[data-flip-root-id=${rootId}]`)
