@@ -15,7 +15,7 @@ node_modules/
 /build
 
 # package
-/lib
+# /lib
 
 # misc
 .DS_Store
